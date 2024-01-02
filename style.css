@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    min-height: 50vh;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.counter {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    border-radius: 5px;
+}
+
+.counter > * {
+    height: 100%;
+    flex: 1;
+    font-size: 32px;
+}
+
+.head-counter {
+    text-align: center;
+}
+
+.head-counter h1 {
+    margin-bottom: 20px;
+}
+
+.head-counter button {
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.5em;
+    margin: 0 5px;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-inc {
+    background-color: #b6ffbc; /* Light Pink */
+    border-color: #69ff76; /* Deep Pink */
+}
+
+.btn-dec {
+    background-color: #ff8b8b; /* Light Goldenrod Yellow */
+    border-color: #ff0000; /* Gold */
+}
+
+.btn-clr {
+    background-color: #989ffb; /* Pale Green */
+    border-color: #2e338b; /* Sea Green */
+}
+
+.btn-rem {
+    background-color: #00e1ff; /* Dark Orange */
+    border-color: #00ddff; /* Orange Red */
+}
+
+.btn-add {
+    font-size: 20px;
+    background-color: #f8b9ff; /* Peach Puff */
+    border-color: #ff7af8; /* Light Salmon */
+    padding: 10px;
+    color: #000; /* Black */
+}
+
+/* Hover effects */
+button:hover {
+    opacity: 0.8;
+}
+
+.btn-add:hover {
+    background-color: #47ff47; /* Tomato */
+    border-color: #00ff00; /* Orange Red */
+    color: black; /* White */
+}
